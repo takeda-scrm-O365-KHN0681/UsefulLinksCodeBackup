@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "useful-links-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/usefulLinksForm/UsefulLinksFormWebPart.js",
+          "manifest": "./src/webparts/usefulLinksForm/UsefulLinksFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "useful-links-hp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/UsefulLinksHP/UsefulLinksHPWebPart.js",
+          "manifest": "./src/webparts/UsefulLinksHP/UsefulLinksHPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UsefulLinksFormWebPartStrings": "lib/webparts/usefulLinksForm/loc/{locale}.js",
+    "UsefulLinksHPWebPartStrings": "lib/webparts/UsefulLinksHP/loc/{locale}.js"
+  }
+}

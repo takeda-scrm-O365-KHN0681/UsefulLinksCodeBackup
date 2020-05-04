@@ -1,0 +1,1 @@
+{"version":3,"file":"IUsefulLinksFormProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/usefulLinksForm/components/IUsefulLinksFormProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAE5D,MAAM,WAAW,qBAAqB;IACpC,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;IAChB,OAAO,EAAC,cAAc,CAAC;CACxB"}
